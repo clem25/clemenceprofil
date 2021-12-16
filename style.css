@@ -1,0 +1,89 @@
+/*colors and fonts*/
+
+body{
+	background-color:rgb(243, 213, 192);
+	color:rgb(136, 158, 175);
+	font-family:'Merriweather Sans',sans-serif;
+	font-size:18px;
+	font-weight:400;
+}
+h1{
+	color:rgb(80, 109, 132);
+	font-family:'Archivo Black',sans-serif;
+	font-weight:600;
+	font-size:45px;
+
+}
+
+h2,h3,h4,h5{
+	color:rgb(80, 109, 132);
+	font-family:'Archivo Black',sans-serif;
+	font-weight:600;
+	font-size:30px;
+	text-decoration-line:underline;
+
+
+}
+
+a{
+	text-decoration:none;
+	color:rgb(108, 74, 74);
+	font-family:'Archivo Black',sans-serif;
+
+}
+a:hover{
+	color:rgb(136, 158, 175) ;
+}
+
+.img-circle{
+	border-radius:50%;
+}
+
+.img-bordered{
+	border:10px solid rgb(243, 213, 192) ;
+
+}
+
+div{
+	background:white;
+	padding:100px;
+	margin:120px auto;
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius:94px;
+	width:700px;
+}
+.text-center {
+	text-align:center;
+}
+
+h5{
+	text-align:center;
+}
+
+.btn-blue{
+	background-color:rgb(243, 213, 192);
+	color:rgb(108, 74, 74);
+	padding:5px 10px;
+	border-radius:100%;
+}
+
+@media(max-width:960px){
+	.text-center{
+		width:700px;
+	}
+
+}
+
+@media(max-width:540px){
+	.text-center{
+		width:300px;
+	}
+
+}
+
+@media(max-width:720px){
+	.text-center{
+		width:500px;
+	}
+
+}
